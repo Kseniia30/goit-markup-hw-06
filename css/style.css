@@ -244,7 +244,7 @@ footer {
 }
 .footer-connection {
     margin-left: 70px;
-    margin-right: 93px;
+    margin-right: auto;
 }
 .ftcnt-head {
     font-family: 'Roboto', sans-serif;
@@ -340,6 +340,7 @@ footer {
     width: 24px;
     height: 24px;
     fill: currentColor;
+    margin-left: 10px;
 }
 
 
@@ -770,6 +771,7 @@ footer {
     margin-bottom: 12px;
 }
 .modal-list {
+    margin-bottom: 0;
 }
 .modal-list-item {
     margin-bottom: 10px;
@@ -778,6 +780,11 @@ footer {
     margin-bottom: 20px;
 }
 .modal-label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.67;
+    letter-spacing: 0.01em;
+    color: var(--second-main);
 }
 .modal-input-container {
     height: 40px;
@@ -834,14 +841,15 @@ footer {
     transition-property: border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    resize: none;
 }
 .modal-check-label {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    margin-left: 12px;
     color: var(--second-main);
+    margin-top: 0;
 }
 .modal-check-label-span {
     display: flex;
